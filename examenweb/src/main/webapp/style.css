@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  position: relative;
+}
+
+nav li > a {
+  display: block;
+}
+
+
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  display: none;
+}
+
+nav ul ul li {
+  display: block;
+}
+
+nav ul ul li > a {
+  display: block;
+}
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+td {
+	align-items: center;
+}
